@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: d39bba4b02a429b449db36c66762769b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 381352302402690573
+    second: ChomperDEATH_Paint_13_0
+  - first:
+      213: -5552975346341938832
+    second: ChomperDEATH_Paint_13_1
+  - first:
+      213: -8956625284962838146
+    second: ChomperDEATH_Paint_13_2
+  - first:
+      213: -8258107359807045181
+    second: ChomperDEATH_Paint_13_3
+  - first:
+      213: 178986279051631583
+    second: ChomperDEATH_Paint_13_4
+  - first:
+      213: -3566225870991879947
+    second: ChomperDEATH_Paint_13_5
+  - first:
+      213: -2948303118364860495
+    second: ChomperDEATH_Paint_13_6
+  - first:
+      213: -2699699281581932419
+    second: ChomperDEATH_Paint_13_7
+  - first:
+      213: -8541400612296216585
+    second: ChomperDEATH_Paint_13_8
+  - first:
+      213: -6811564151987779857
+    second: ChomperDEATH_Paint_13_9
+  - first:
+      213: 1505268087159402257
+    second: ChomperDEATH_Paint_13_10
+  - first:
+      213: 8027058138395149976
+    second: ChomperDEATH_Paint_13_11
+  - first:
+      213: 5752225636230217344
+    second: ChomperDEATH_Paint_13_12
+  - first:
+      213: -6483421049741048071
+    second: ChomperDEATH_Paint_13_13
+  - first:
+      213: -5705972214986326510
+    second: ChomperDEATH_Paint_13_14
+  - first:
+      213: -678625528575762765
+    second: ChomperDEATH_Paint_13_15
+  - first:
+      213: 8448607139153502346
+    second: ChomperDEATH_Paint_13_16
+  - first:
+      213: -2813895914427753969
+    second: ChomperDEATH_Paint_13_17
+  - first:
+      213: 2079484337637703827
+    second: ChomperDEATH_Paint_13_18
+  - first:
+      213: -8873513310876437537
+    second: ChomperDEATH_Paint_13_19
+  - first:
+      213: -4729767970047112387
+    second: ChomperDEATH_Paint_13_20
+  - first:
+      213: -8077954863529013319
+    second: ChomperDEATH_Paint_13_21
+  - first:
+      213: 5089974694588743920
+    second: ChomperDEATH_Paint_13_22
+  - first:
+      213: -1413540391667777892
+    second: ChomperDEATH_Paint_13_23
+  - first:
+      213: -251257110202247428
+    second: ChomperDEATH_Paint_13_24
+  - first:
+      213: -269616661118333727
+    second: ChomperDEATH_Paint_13_25
+  - first:
+      213: 1609429409096714934
+    second: ChomperDEATH_Paint_13_26
+  - first:
+      213: 8903051369366018625
+    second: ChomperDEATH_Paint_13_27
+  - first:
+      213: -3535861257587593603
+    second: ChomperDEATH_Paint_13_28
+  - first:
+      213: 81507894051409333
+    second: ChomperDEATH_Paint_13_29
+  - first:
+      213: -8966270003960036390
+    second: ChomperDEATH_Paint_13_30
+  - first:
+      213: -8046964469688610775
+    second: ChomperDEATH_Paint_13_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_0
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 255
+        width: 76
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e5df606e5da4500800000000000000
+      internalID: 381352302402690573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 204
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07979cae75edfe2b0800000000000000
+      internalID: -5552975346341938832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 221
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79128fe1cca3b380800000000000000
+      internalID: -8956625284962838146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 223
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c189ad0c1f456d80800000000000000
+      internalID: -8258107359807045181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_4
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 175
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb9a8e8213eb7200800000000000000
+      internalID: 178986279051631583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 168
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f098ba0778328ec0800000000000000
+      internalID: -3566225870991879947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 186
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf9fa34fe58517d0800000000000000
+      internalID: -2948303118364860495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d708ee89ecdb88ad0800000000000000
+      internalID: -2699699281581932419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 138
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffa7cbb569d67980800000000000000
+      internalID: -8541400612296216585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_9
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 168
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6cbf33e767871a0800000000000000
+      internalID: -6811564151987779857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 174
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f2eda9959c3e410800000000000000
+      internalID: 1505268087159402257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 161
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896837209d6d56f60800000000000000
+      internalID: 8027058138395149976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_12
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 151
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08eb5635db204df40800000000000000
+      internalID: 5752225636230217344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 149
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f605e8e7e24606a0800000000000000
+      internalID: -6483421049741048071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 166
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ebd73808050d0b0800000000000000
+      internalID: -5705972214986326510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 116
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bedab16da90596f0800000000000000
+      internalID: -678625528575762765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 143
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80e2103e6b7f3570800000000000000
+      internalID: 8448607139153502346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 120
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a5c91139803f8d0800000000000000
+      internalID: -2813895914427753969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_18
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 119
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39042ecccffcbdc10800000000000000
+      internalID: 2079484337637703827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 131
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3728b58a2fad480800000000000000
+      internalID: -8873513310876437537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 124
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b4253371d7c5eb0800000000000000
+      internalID: -4729767970047112387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 65
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfc6b7b9d655ef80800000000000000
+      internalID: -8077954863529013319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 106
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f080b2540933a640800000000000000
+      internalID: 5089974694588743920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9eb9f6c088126ce0800000000000000
+      internalID: -1413540391667777892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_24
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 106
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf69a1f4dfa538cf0800000000000000
+      internalID: -251257110202247428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_25
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 98
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecc3804311224cf0800000000000000
+      internalID: -269616661118333727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_26
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bac64c3587d55610800000000000000
+      internalID: 1609429409096714934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 92
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14add10dc0efd8b70800000000000000
+      internalID: 8903051369366018625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_28
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 73
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7eec668be81eeec0800000000000000
+      internalID: -3535861257587593603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 76
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd035f6ff2912100800000000000000
+      internalID: 81507894051409333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 50
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3c8bdcfe8619380800000000000000
+      internalID: -8966270003960036390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChomperDEATH_Paint_13_31
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 39
+        width: 61
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92055001370735090800000000000000
+      internalID: -8046964469688610775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChomperDEATH_Paint_13_0: 381352302402690573
+      ChomperDEATH_Paint_13_1: -5552975346341938832
+      ChomperDEATH_Paint_13_10: 1505268087159402257
+      ChomperDEATH_Paint_13_11: 8027058138395149976
+      ChomperDEATH_Paint_13_12: 5752225636230217344
+      ChomperDEATH_Paint_13_13: -6483421049741048071
+      ChomperDEATH_Paint_13_14: -5705972214986326510
+      ChomperDEATH_Paint_13_15: -678625528575762765
+      ChomperDEATH_Paint_13_16: 8448607139153502346
+      ChomperDEATH_Paint_13_17: -2813895914427753969
+      ChomperDEATH_Paint_13_18: 2079484337637703827
+      ChomperDEATH_Paint_13_19: -8873513310876437537
+      ChomperDEATH_Paint_13_2: -8956625284962838146
+      ChomperDEATH_Paint_13_20: -4729767970047112387
+      ChomperDEATH_Paint_13_21: -8077954863529013319
+      ChomperDEATH_Paint_13_22: 5089974694588743920
+      ChomperDEATH_Paint_13_23: -1413540391667777892
+      ChomperDEATH_Paint_13_24: -251257110202247428
+      ChomperDEATH_Paint_13_25: -269616661118333727
+      ChomperDEATH_Paint_13_26: 1609429409096714934
+      ChomperDEATH_Paint_13_27: 8903051369366018625
+      ChomperDEATH_Paint_13_28: -3535861257587593603
+      ChomperDEATH_Paint_13_29: 81507894051409333
+      ChomperDEATH_Paint_13_3: -8258107359807045181
+      ChomperDEATH_Paint_13_30: -8966270003960036390
+      ChomperDEATH_Paint_13_31: -8046964469688610775
+      ChomperDEATH_Paint_13_4: 178986279051631583
+      ChomperDEATH_Paint_13_5: -3566225870991879947
+      ChomperDEATH_Paint_13_6: -2948303118364860495
+      ChomperDEATH_Paint_13_7: -2699699281581932419
+      ChomperDEATH_Paint_13_8: -8541400612296216585
+      ChomperDEATH_Paint_13_9: -6811564151987779857
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

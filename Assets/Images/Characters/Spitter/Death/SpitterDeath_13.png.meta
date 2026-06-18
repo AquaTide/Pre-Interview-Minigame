@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: be537537abfce3945a6762d3ced84734
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6340891542167354493
+    second: SpitterDeath_13_0
+  - first:
+      213: -4029493321733558887
+    second: SpitterDeath_13_1
+  - first:
+      213: 9193756170506813971
+    second: SpitterDeath_13_2
+  - first:
+      213: 7953645931411933012
+    second: SpitterDeath_13_3
+  - first:
+      213: -3781635789296331308
+    second: SpitterDeath_13_4
+  - first:
+      213: -6618575832894565607
+    second: SpitterDeath_13_5
+  - first:
+      213: -6090699829153597245
+    second: SpitterDeath_13_6
+  - first:
+      213: -7560052059307764018
+    second: SpitterDeath_13_7
+  - first:
+      213: -2683047191457506556
+    second: SpitterDeath_13_8
+  - first:
+      213: 6655899069905840405
+    second: SpitterDeath_13_9
+  - first:
+      213: 1306597745515773906
+    second: SpitterDeath_13_10
+  - first:
+      213: -3270917832668087553
+    second: SpitterDeath_13_11
+  - first:
+      213: 2185001675558205234
+    second: SpitterDeath_13_12
+  - first:
+      213: -5344363557433931255
+    second: SpitterDeath_13_13
+  - first:
+      213: -5761870150126906939
+    second: SpitterDeath_13_14
+  - first:
+      213: 961373718446526827
+    second: SpitterDeath_13_15
+  - first:
+      213: 7760370291421793380
+    second: SpitterDeath_13_16
+  - first:
+      213: 2221529505686692682
+    second: SpitterDeath_13_17
+  - first:
+      213: 6100693508102127492
+    second: SpitterDeath_13_18
+  - first:
+      213: 1718242289339905518
+    second: SpitterDeath_13_19
+  - first:
+      213: 3504292321591932022
+    second: SpitterDeath_13_20
+  - first:
+      213: -5116540851062242570
+    second: SpitterDeath_13_21
+  - first:
+      213: 3444187379386168419
+    second: SpitterDeath_13_22
+  - first:
+      213: 1180480433658896966
+    second: SpitterDeath_13_23
+  - first:
+      213: 7261600273708420033
+    second: SpitterDeath_13_24
+  - first:
+      213: 5528599476402020084
+    second: SpitterDeath_13_25
+  - first:
+      213: 140814010606907827
+    second: SpitterDeath_13_26
+  - first:
+      213: -7013822016524622164
+    second: SpitterDeath_13_27
+  - first:
+      213: 5268891079732589945
+    second: SpitterDeath_13_28
+  - first:
+      213: 3268757230933628058
+    second: SpitterDeath_13_29
+  - first:
+      213: 6435685217357905782
+    second: SpitterDeath_13_30
+  - first:
+      213: 6798000548527630340
+    second: SpitterDeath_13_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpitterDeath_13_0
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 255
+        width: 76
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cf92a134f5ff750800000000000000
+      internalID: 6340891542167354493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 204
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d234d4c2d5418c0800000000000000
+      internalID: -4029493321733558887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 221
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3124d96c688c69f70800000000000000
+      internalID: 9193756170506813971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 223
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4570a0b95d6016e60800000000000000
+      internalID: 7953645931411933012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_4
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 175
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5961d194ee48bc0800000000000000
+      internalID: -3781635789296331308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 168
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9139551c8581624a0800000000000000
+      internalID: -6618575832894565607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 186
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c874c976cc797ba0800000000000000
+      internalID: -6090699829153597245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec61089f4bc451790800000000000000
+      internalID: -7560052059307764018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 138
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bd0957bc6e3cad0800000000000000
+      internalID: -2683047191457506556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_9
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 168
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519279a80f08e5c50800000000000000
+      internalID: 6655899069905840405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 174
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df3bc51ab7f12210800000000000000
+      internalID: 1306597745515773906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 161
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaf35eaf8d5b92d0800000000000000
+      internalID: -3270917832668087553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_12
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 151
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237b741827fa25e10800000000000000
+      internalID: 2185001675558205234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 149
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a8b9009a105d5b0800000000000000
+      internalID: -5344363557433931255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 166
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c152cb40a9b900b0800000000000000
+      internalID: -5761870150126906939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 116
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61d668ad4c775d00800000000000000
+      internalID: 961373718446526827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 143
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cc0b1f9af52bb60800000000000000
+      internalID: 7760370291421793380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 120
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a432184b05574de10800000000000000
+      internalID: 2221529505686692682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_18
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 119
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f75f93c640aa450800000000000000
+      internalID: 6100693508102127492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 131
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5b82e224c68d710800000000000000
+      internalID: 1718242289339905518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 124
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674bd99cc4fb1a030800000000000000
+      internalID: 3504292321591932022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 65
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f209ad54356ef8b0800000000000000
+      internalID: -5116540851062242570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 106
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36432386c263ccf20800000000000000
+      internalID: 3444187379386168419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642a98033b8e16010800000000000000
+      internalID: 1180480433658896966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_24
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 106
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb054fa9f266c460800000000000000
+      internalID: 7261600273708420033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_25
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 98
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe5a589ee789bc40800000000000000
+      internalID: 5528599476402020084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_26
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b17f99b89544f100800000000000000
+      internalID: 140814010606907827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 92
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca66c3b6906e9ae90800000000000000
+      internalID: -7013822016524622164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_28
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 73
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9757faf658cde1940800000000000000
+      internalID: 5268891079732589945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 76
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94d9c60265fc5d20800000000000000
+      internalID: 3268757230933628058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 50
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fb9d28b95205950800000000000000
+      internalID: 6435685217357905782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpitterDeath_13_31
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 39
+        width: 61
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40866e54b79575e50800000000000000
+      internalID: 6798000548527630340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpitterDeath_13_0: 6340891542167354493
+      SpitterDeath_13_1: -4029493321733558887
+      SpitterDeath_13_10: 1306597745515773906
+      SpitterDeath_13_11: -3270917832668087553
+      SpitterDeath_13_12: 2185001675558205234
+      SpitterDeath_13_13: -5344363557433931255
+      SpitterDeath_13_14: -5761870150126906939
+      SpitterDeath_13_15: 961373718446526827
+      SpitterDeath_13_16: 7760370291421793380
+      SpitterDeath_13_17: 2221529505686692682
+      SpitterDeath_13_18: 6100693508102127492
+      SpitterDeath_13_19: 1718242289339905518
+      SpitterDeath_13_2: 9193756170506813971
+      SpitterDeath_13_20: 3504292321591932022
+      SpitterDeath_13_21: -5116540851062242570
+      SpitterDeath_13_22: 3444187379386168419
+      SpitterDeath_13_23: 1180480433658896966
+      SpitterDeath_13_24: 7261600273708420033
+      SpitterDeath_13_25: 5528599476402020084
+      SpitterDeath_13_26: 140814010606907827
+      SpitterDeath_13_27: -7013822016524622164
+      SpitterDeath_13_28: 5268891079732589945
+      SpitterDeath_13_29: 3268757230933628058
+      SpitterDeath_13_3: 7953645931411933012
+      SpitterDeath_13_30: 6435685217357905782
+      SpitterDeath_13_31: 6798000548527630340
+      SpitterDeath_13_4: -3781635789296331308
+      SpitterDeath_13_5: -6618575832894565607
+      SpitterDeath_13_6: -6090699829153597245
+      SpitterDeath_13_7: -7560052059307764018
+      SpitterDeath_13_8: -2683047191457506556
+      SpitterDeath_13_9: 6655899069905840405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

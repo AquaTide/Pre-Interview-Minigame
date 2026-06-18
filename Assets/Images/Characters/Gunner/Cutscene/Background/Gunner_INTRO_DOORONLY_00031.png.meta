@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 7bcb49dea99793c40b1965360c4a0b66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1485077950547214473
+    second: Gunner_INTRO_DOORONLY_00031_0
+  - first:
+      213: 6176367033725792352
+    second: Gunner_INTRO_DOORONLY_00031_1
+  - first:
+      213: 4977598043786104574
+    second: Gunner_INTRO_DOORONLY_00031_2
+  - first:
+      213: -823205461093439705
+    second: Gunner_INTRO_DOORONLY_00031_3
+  - first:
+      213: 3834398946763651192
+    second: Gunner_INTRO_DOORONLY_00031_4
+  - first:
+      213: -5504989378857811414
+    second: Gunner_INTRO_DOORONLY_00031_5
+  - first:
+      213: -5495129884124272140
+    second: Gunner_INTRO_DOORONLY_00031_6
+  - first:
+      213: 2078562223829868229
+    second: Gunner_INTRO_DOORONLY_00031_7
+  - first:
+      213: 1709151893926027802
+    second: Gunner_INTRO_DOORONLY_00031_8
+  - first:
+      213: -973830502027075108
+    second: Gunner_INTRO_DOORONLY_00031_9
+  - first:
+      213: -1562966356275153342
+    second: Gunner_INTRO_DOORONLY_00031_10
+  - first:
+      213: 7211126498181675786
+    second: Gunner_INTRO_DOORONLY_00031_11
+  - first:
+      213: 7500752423805518641
+    second: Gunner_INTRO_DOORONLY_00031_12
+  - first:
+      213: -7798354501004045379
+    second: Gunner_INTRO_DOORONLY_00031_13
+  - first:
+      213: 285236640775667244
+    second: Gunner_INTRO_DOORONLY_00031_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 367
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f3ed5e871f36be0800000000000000
+      internalID: -1485077950547214473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 369
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060b8a7e71dd6b550800000000000000
+      internalID: 6176367033725792352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 363
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efecc826c0bf31540800000000000000
+      internalID: 4977598043786104574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 370
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7272d52aef26394f0800000000000000
+      internalID: -823205461093439705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 314
+        width: 449
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878bafcc685863530800000000000000
+      internalID: 3834398946763651192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_5
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 370
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22c1ec93595a93b0800000000000000
+      internalID: -5504989378857811414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 363
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9a32e1c706db3b0800000000000000
+      internalID: -5495129884124272140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_7
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 369
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cedce2745988dc10800000000000000
+      internalID: 2078562223829868229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_8
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 367
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12a5a0979028b710800000000000000
+      internalID: 1709151893926027802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 352
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd16c3761524c72f0800000000000000
+      internalID: -973830502027075108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 347
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2463552416a3f4ae0800000000000000
+      internalID: -1562966356275153342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_11
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 347
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b768a0851131460800000000000000
+      internalID: 7211126498181675786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_12
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 352
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1330419b696081860800000000000000
+      internalID: 7500752423805518641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_13
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 328
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3d51716eda6c390800000000000000
+      internalID: -7798354501004045379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_INTRO_DOORONLY_00031_14
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 328
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2efb5aa63d55f300800000000000000
+      internalID: 285236640775667244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gunner_INTRO_DOORONLY_00031_0: -1485077950547214473
+      Gunner_INTRO_DOORONLY_00031_1: 6176367033725792352
+      Gunner_INTRO_DOORONLY_00031_10: -1562966356275153342
+      Gunner_INTRO_DOORONLY_00031_11: 7211126498181675786
+      Gunner_INTRO_DOORONLY_00031_12: 7500752423805518641
+      Gunner_INTRO_DOORONLY_00031_13: -7798354501004045379
+      Gunner_INTRO_DOORONLY_00031_14: 285236640775667244
+      Gunner_INTRO_DOORONLY_00031_2: 4977598043786104574
+      Gunner_INTRO_DOORONLY_00031_3: -823205461093439705
+      Gunner_INTRO_DOORONLY_00031_4: 3834398946763651192
+      Gunner_INTRO_DOORONLY_00031_5: -5504989378857811414
+      Gunner_INTRO_DOORONLY_00031_6: -5495129884124272140
+      Gunner_INTRO_DOORONLY_00031_7: 2078562223829868229
+      Gunner_INTRO_DOORONLY_00031_8: 1709151893926027802
+      Gunner_INTRO_DOORONLY_00031_9: -973830502027075108
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
