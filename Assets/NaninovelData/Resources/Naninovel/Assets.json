@@ -1,6 +1,18 @@
 {
     "Assets": [
         {
+            "guid": "9b7325784c23ba743884e2a5a4245808",
+            "prefix": "Characters/Head Chief",
+            "path": "neutral",
+            "group": "Characters/948c7dc2-0ff7-4b8c-b40e-3346f6c05e05"
+        },
+        {
+            "guid": "5fa72cc08b9fab74a8b5314a4b80bc5e",
+            "prefix": "Characters/Kunoi",
+            "path": "neutral",
+            "group": "Characters/2dc57165-d36d-4dc7-98c5-c346c1fe6e5e"
+        },
+        {
             "guid": "4fa6d62f894ae6e4698bfa8af59e7942",
             "prefix": "ChoiceHandlers",
             "path": "ButtonArea",
@@ -19,9 +31,93 @@
             "group": "ChoiceHandlers/fdff7319-0e8b-47b2-b8ab-ddbc3f48407d"
         },
         {
+            "guid": "dc495c968203f3a4a992214427fc2a62",
+            "prefix": "Scripts",
+            "path": "1-Basics",
+            "group": ""
+        },
+        {
+            "guid": "943e0f5423e621a4a8a3442b3f465aa0",
+            "prefix": "Scripts",
+            "path": "1-Basics 1",
+            "group": ""
+        },
+        {
+            "guid": "05483f700f1c5694a9daa68761733bf9",
+            "prefix": "Scripts",
+            "path": "2-DialogueEvents",
+            "group": ""
+        },
+        {
+            "guid": "bf46247cea7112c4681c3d311d6bf96b",
+            "prefix": "Scripts",
+            "path": "3-CharacterEvents",
+            "group": ""
+        },
+        {
+            "guid": "c6660057b92a23d419c4bcba89b9735a",
+            "prefix": "Scripts",
+            "path": "4-Bubbles",
+            "group": ""
+        },
+        {
+            "guid": "2b3c0a2878f3a05439275efc6aec3864",
+            "prefix": "Scripts",
+            "path": "5-Timeline",
+            "group": ""
+        },
+        {
             "guid": "758a5c1086e53974bb6eb8e4cb2d4def",
             "prefix": "Scripts",
             "path": "Entry",
+            "group": ""
+        },
+        {
+            "guid": "943e0f5423e621a4a8a3442b3f465aa0",
+            "prefix": "Scripts",
+            "path": "Intro",
+            "group": ""
+        },
+        {
+            "guid": "dc495c968203f3a4a992214427fc2a62",
+            "prefix": "Scripts",
+            "path": "Sample/1-Basics",
+            "group": ""
+        },
+        {
+            "guid": "05483f700f1c5694a9daa68761733bf9",
+            "prefix": "Scripts",
+            "path": "Sample/2-DialogueEvents",
+            "group": ""
+        },
+        {
+            "guid": "bf46247cea7112c4681c3d311d6bf96b",
+            "prefix": "Scripts",
+            "path": "Sample/3-CharacterEvents",
+            "group": ""
+        },
+        {
+            "guid": "c6660057b92a23d419c4bcba89b9735a",
+            "prefix": "Scripts",
+            "path": "Sample/4-Bubbles",
+            "group": ""
+        },
+        {
+            "guid": "2b3c0a2878f3a05439275efc6aec3864",
+            "prefix": "Scripts",
+            "path": "Sample/5-Timeline",
+            "group": ""
+        },
+        {
+            "guid": "758a5c1086e53974bb6eb8e4cb2d4def",
+            "prefix": "Scripts",
+            "path": "Sample/Entry",
+            "group": ""
+        },
+        {
+            "guid": "5606e67eac6182448bffa9dad13743b2",
+            "prefix": "Scripts",
+            "path": "Sample/Title",
             "group": ""
         },
         {
@@ -127,18 +223,6 @@
             "group": "TextPrinters/c77cdbdf-7577-44e5-9463-0c2189aea16c"
         },
         {
-            "guid": "7fba909c66b25324cb77db18679c2c96",
-            "prefix": "UI",
-            "path": "BacklogUI",
-            "group": ""
-        },
-        {
-            "guid": "71da50c8dae82bd42ba67528804e820c",
-            "prefix": "UI",
-            "path": "CGGalleryUI",
-            "group": ""
-        },
-        {
             "guid": "702c32b2de0c0784b9a66ec90601874f",
             "prefix": "UI",
             "path": "ClickThroughPanel",
@@ -151,45 +235,9 @@
             "group": ""
         },
         {
-            "guid": "1add671f8348e8443bcc56290e82fc5e",
-            "prefix": "UI",
-            "path": "ContinueInputUI",
-            "group": ""
-        },
-        {
-            "guid": "671ceb4f549ddf046913d7debf113469",
-            "prefix": "UI",
-            "path": "ExternalScriptsUI",
-            "group": ""
-        },
-        {
-            "guid": "53aad00e5cf184e458adb001c550518a",
-            "prefix": "UI",
-            "path": "LoadingUI",
-            "group": ""
-        },
-        {
             "guid": "f9a211517d1cb1a44964dc2254463049",
             "prefix": "UI",
             "path": "MovieUI",
-            "group": ""
-        },
-        {
-            "guid": "480f5db62ea305c46b89a86496d2a0c9",
-            "prefix": "UI",
-            "path": "PauseUI",
-            "group": ""
-        },
-        {
-            "guid": "a32c73a3aff4b274c85b3ff16c854b07",
-            "prefix": "UI",
-            "path": "RollbackUI",
-            "group": ""
-        },
-        {
-            "guid": "8d53726b3d08433479398f02b4780e7f",
-            "prefix": "UI",
-            "path": "SaveLoadUI",
             "group": ""
         },
         {
@@ -202,24 +250,6 @@
             "guid": "735d6aa767879aa469134858c5b2f0a7",
             "prefix": "UI",
             "path": "ScriptNavigatorUI",
-            "group": ""
-        },
-        {
-            "guid": "65c37f59e9b266f468dd5381fdc03fc3",
-            "prefix": "UI",
-            "path": "SettingsUI",
-            "group": ""
-        },
-        {
-            "guid": "f5aae572225ee1b4c96d1a17fc5cb073",
-            "prefix": "UI",
-            "path": "TipsUI",
-            "group": ""
-        },
-        {
-            "guid": "4b121aa1be1b7e04480b452c595ff17a",
-            "prefix": "UI",
-            "path": "TitleUI",
             "group": ""
         },
         {

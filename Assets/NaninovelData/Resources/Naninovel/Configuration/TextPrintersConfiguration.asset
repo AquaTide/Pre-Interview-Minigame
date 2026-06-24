@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TextPrintersConfiguration
   m_EditorClassIdentifier: Elringus.Naninovel.Runtime::Naninovel.TextPrintersConfiguration
   DefaultDuration: 0.35
-  DefaultEasing: 0
+  DefaultEasing: 1
   AutoShowOnModify: 0
   SceneOrigin: {x: 0.5, y: 0}
   ZOffset: 0

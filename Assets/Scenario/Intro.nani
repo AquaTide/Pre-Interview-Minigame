@@ -1,0 +1,15 @@
+Kunoi.neutral: Akhirnya keluar dari hutan juga...
+\[Suara dari kejauhan\]
+Kunoi: Ada kegaduhan apa disana ?
+@char Kunoi pose:darken lazy!
+@slide Kunoi to:110 wait! time:1 easing:EaseOutSine
+@exitDialogue
+# Part2
+@char Kunoi pose:lighten lazy!
+@slide Kunoi to:50 wait! time:1 easing:EaseOutSine from:0
+Kunoi.neutral: Ada apa disini ?
+@char Kunoi pose:darken
+Bagaimanapun juga ini tanggung jawab kita
+Kau pikir kau cukup kuat ?
+Meskipun begitu kita tidak bisa berdiam diri saja
+@exitDialogue

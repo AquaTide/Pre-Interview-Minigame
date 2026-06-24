@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Naninovel
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Naninovel
+  m_GUID: 18f87422f28df3b42a0a3ff25a585ecf
+  m_SerializeEntries:
+  - m_GUID: 0e61df696cabbea448510879ee732b00
+    m_Address: Naninovel/ChoiceHandlers/ChatReply
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1224d69e1592d624cbde93d0f7383d91
+    m_Address: Naninovel/Spawn/ShakeCharacter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bc08ccd31adff6439e97161aa6e1d8b
+    m_Address: Naninovel/TextPrinters/Dialogue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c5b86cf3cfbb1f44ae5641699077da4
+    m_Address: Naninovel/Spawn/ShakeCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f6aa29000e839c409e6a9c0704adc96
+    m_Address: Naninovel/ChoiceHandlers/ButtonList
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2795040988e866646801c80024c50be1
+    m_Address: Naninovel/Spawn/ShakePrinter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fa6d62f894ae6e4698bfa8af59e7942
+    m_Address: Naninovel/ChoiceHandlers/ButtonArea
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5606e67eac6182448bffa9dad13743b2
+    m_Address: Naninovel/Scripts/Title
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f9836a3c4f777741b1962979d97e485
+    m_Address: Naninovel/TextPrinters/Chat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 702c32b2de0c0784b9a66ec90601874f
+    m_Address: Naninovel/UI/ClickThroughPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 735d6aa767879aa469134858c5b2f0a7
+    m_Address: Naninovel/UI/ScriptNavigatorUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 758a5c1086e53974bb6eb8e4cb2d4def
+    m_Address: Naninovel/Scripts/Entry
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 781828b806deb1e4cbf50ef9de41da10
+    m_Address: Naninovel/TextPrinters/Wide
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bf06fa813bb9c34daf521998fa72ab1
+    m_Address: Naninovel/Spawn/Animate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88d03f19bcbff914ba33a7c9895e2d7c
+    m_Address: Naninovel/UI/ConfirmationUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f4e71cb27fffa04486737d2cf8d622d
+    m_Address: Naninovel/Spawn/Snow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f56c556ba32fd54fae62347c25a8145
+    m_Address: Naninovel/Spawn/ShakeBackground
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9117e2fa90704d45b3e1461596c11ee
+    m_Address: Naninovel/Spawn/Rain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b47d9659b2be5ee4e95a776f213c9d4b
+    m_Address: Naninovel/TextPrinters/Bubble
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb95f484e341dcd4391a572f22b7d067
+    m_Address: Naninovel/UI/VariableInputUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be75a73ecccb90b4caa5c14edb9ac467
+    m_Address: Naninovel/Spawn/DigitalGlitch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4bf810b9b6cc9f44a58fd670678ded4
+    m_Address: Naninovel/Spawn/SunShafts
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c87cebd3f0d4f174789cd351ce9591c4
+    m_Address: Naninovel/TextPrinters/Fullscreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd85ce99288c2f8488447fa511b1c0d6
+    m_Address: Naninovel/UI/ToastUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3b234b4273b7f64ab3f1d9fe425ed23
+    m_Address: Naninovel/UI/SceneTransitionUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e466d9326b30a4b49a3dad428b4d9968
+    m_Address: Naninovel/Spawn/Blur
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea76638b26a915946b62907dd1e776fd
+    m_Address: Naninovel/Spawn/DepthOfField
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9a211517d1cb1a44964dc2254463049
+    m_Address: Naninovel/UI/MovieUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 077d6498b6812744e95812b25bb6aa92, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cc722e4ace29a4a4eaacacde4ee15e27, type: 2}
+    - {fileID: 11400000, guid: 1b1d6c61a0214484baf0a65f93073b3d, type: 2}
