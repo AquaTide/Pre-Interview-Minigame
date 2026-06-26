@@ -6,23 +6,23 @@ using UnityEngine.Events;
 public class MainCharacterAction : MonoBehaviour
 {
     private CharacterActionInterface _actionInterface;
-    private CharBattleHandler _charBattleHandler;
+    private CharCombatHandler _charCombatHandler;
     public UnityEvent AttackAction;
     public UnityEvent DefenseAction;
 
-    public void EndTurn() => _charBattleHandler.EndTurn();
+    public void EndTurn() => _charCombatHandler.EndTurn();
     
     private void Awake()
     {
         _actionInterface = GetComponent<CharacterActionInterface>();
-        _charBattleHandler = GetComponentInParent<CharBattleHandler>();
+        _charCombatHandler = GetComponentInParent<CharCombatHandler>();
     }
 
     private void OnEnable()
     {
-        _charBattleHandler.OnTakeTurn += OnTakeTurn;
-        _charBattleHandler.AttackPerformed += AttackPerformed;
-        _charBattleHandler.OnDamaged += OnDamaged;
+        _charCombatHandler.OnTakeTurn += OnTakeTurn;
+        _charCombatHandler.AttackPerformed += AttackPerformed;
+        _charCombatHandler.OnTakingDamage += OnDamaged;
         // _charBattleHandler.OnPoisonOccur += OnPoisonOccur;
         // _charBattleHandler.OnStunOccur   += OnStunOccur;
         // _charBattleHandler.OnParalyzeOccur += OnParalyzeOccur;
@@ -41,8 +41,8 @@ public class MainCharacterAction : MonoBehaviour
 
     private void OnDisable()
     {
-        _charBattleHandler.OnTakeTurn    -= OnTakeTurn;
-        _charBattleHandler.OnDamaged     -= OnDamaged;
+        _charCombatHandler.OnTakeTurn    -= OnTakeTurn;
+        _charCombatHandler.OnTakingDamage     -= OnDamaged;
         // _charBattleHandler.OnPoisonOccur -= OnPoisonOccur;
         // _charBattleHandler.OnStunOccur   -= OnStunOccur;
         // _charBattleHandler.OnParalyzeOccur -= OnParalyzeOccur;
@@ -55,13 +55,13 @@ public class MainCharacterAction : MonoBehaviour
 
     private void OnDamaged()
     {
-        throw new NotImplementedException();
+        
     }
 
     private void OnTakeTurn()
     {
         var bm = BattleManager.Instance;
-        bm.ActiveCharacter = _charBattleHandler;
+        bm.ActiveCharacter = _charCombatHandler;
         _actionInterface.EnableInterface();
     }
 

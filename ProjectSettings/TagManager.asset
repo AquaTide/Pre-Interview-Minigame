@@ -41,11 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 454223967
+    locked: 0
   - name: Shadow
     uniqueID: 2296141049
     locked: 0
-  - name: Character
+  - name: Top Tree
+    uniqueID: 2602451171
+    locked: 0
+  - name: Object
     uniqueID: 860519517
+    locked: 0
+  - name: BottomTree
+    uniqueID: 1729327541
     locked: 0
   m_RenderingLayers:
   - Default

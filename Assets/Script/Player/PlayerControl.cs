@@ -88,6 +88,9 @@ public class PlayerControl : MonoBehaviour
         {
             _possibleInteractions.Add(interactObject);
             objectToInteract = _possibleInteractions.Last();
+
+            if(!interactObject.AutoEvent) return;
+            objectToInteract?.InteractWithObject(this);
         }
     }
 

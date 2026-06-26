@@ -1,6 +1,6 @@
-using Naninovel;
 using UnityEngine;
 using UnityEngine.Events;
+using Naninovel;
 
 
 [CreateAssetMenu(fileName = "Talk Event", menuName = "Player Interaction/Talk Event")]
@@ -9,6 +9,7 @@ public class TalkEvent : ScriptableObject
     [ScriptAssetRef]
     public string script;
     public string label;
+    public bool AutoEvent;
     public UnityEvent onDialogueEnter;
     public UnityEvent onDialogueEnd;
 

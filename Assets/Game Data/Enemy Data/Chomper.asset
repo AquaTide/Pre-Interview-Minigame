@@ -17,3 +17,4 @@ MonoBehaviour:
   baseSpeed: 6
   baseAttack: 1
   prefab: {fileID: 8661090242877080560, guid: 35fe7ce22f8825f42852a70602060938, type: 3}
+  pattern: {fileID: 11400000, guid: 8ea2a8c367f313447b74a425de19162f, type: 2}

@@ -6,32 +6,46 @@ public class EnemyInterfaceHandler : MonoBehaviour
 {
     [SerializeField] private Slider HealthBar;
     [SerializeField] private Button Targeting;
-    private EnemyBattleManager _battleManager;
-    
+    private EnemyCombatManager _combatManager;
+
     private void Awake()
     {
-        _battleManager = GetComponentInParent<EnemyBattleManager>();
+        _combatManager = GetComponentInParent<EnemyCombatManager>();
     }
 
     private void OnEnable()
     {
-        _battleManager.OnDamaged += OnHealthChange;
-        _battleManager.OnEnableTargeting += EnableTargeting;
-        _battleManager.OnTargeted += Targeted;
+        _combatManager.OnDamaged += OnHealthChange;
+        _combatManager.OnEnableTargeting += EnableTargeting;
+        _combatManager.OnTargeted += Targeted;
         Targeting.onClick.AddListener(() => OnTargetSelected());
     }
 
     private void OnDisable()
     {
-        _battleManager.OnDamaged -= OnHealthChange;
+        _combatManager.OnDamaged -= OnHealthChange;
+    }
+
+    private void Start()
+    {
+        InitializeHealthBar();
     }
 
     private void OnHealthChange()
     {
-        var curHp = _battleManager.Health;
-        var maxHp = _battleManager.enemyData.maxHealth;
-        
+        UpdateHealthBar();
+    }
+
+    private void InitializeHealthBar()
+    {
+        var maxHp = _combatManager.enemyData.maxHealth;
         HealthBar.maxValue = maxHp;
+        UpdateHealthBar();
+    }
+
+    private void UpdateHealthBar()
+    {
+        var curHp = _combatManager.Health;
         HealthBar.value = curHp;
     }
 
@@ -44,8 +58,8 @@ public class EnemyInterfaceHandler : MonoBehaviour
         DisableTargeting();
         var bm = BattleManager.Instance;
         var dmg = bm.ActiveCharacter.Attack;
-        
-        _battleManager.TakingDamage(dmg);
+
+        _combatManager.TakingDamage(dmg);
         bm.ActiveCharacter.AttackPerformed();
         bm.ActiveCharacter.EndTurn();
     }

@@ -1,18 +1,19 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
     public List<EnemyData> enemyList;
-    public EnemyBattleManager[] spawnedEnemies;
+    public EnemyCombatManager[] spawnedEnemies;
     public int ActiveEnemy = 0;
 
     private void OnEnable()
     {
         GenerateEnemies();
     }
-
+    
     private void GenerateEnemies()
     {
         enemyList = EncounterEvent.Instance.encounter.Enemies;
@@ -24,7 +25,7 @@ public class EnemyManager : MonoBehaviour
         var count = enemyList.Count;
         var spotFormation = transform.GetChild(count - 1);
         
-        spawnedEnemies = spotFormation.GetComponentsInChildren<EnemyBattleManager>();
+        spawnedEnemies = spotFormation.GetComponentsInChildren<EnemyCombatManager>();
         
         var i = 0;
         foreach (var e in spawnedEnemies)
@@ -44,5 +45,13 @@ public class EnemyManager : MonoBehaviour
         }
 
         spawnedEnemies[0].OnTargeted();
+    }
+
+    public bool ValidateBattle()
+    {
+        var bm = BattleManager.Instance;
+        var deathCnt = spawnedEnemies.Count(e => (e.ActiveAilment & Ailment.Dead) != 0);
+        
+        return deathCnt == spawnedEnemies.Length;
     }
 }

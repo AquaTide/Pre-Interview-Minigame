@@ -3,20 +3,19 @@ using Naninovel.UI;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class CharBattleHandler : MonoBehaviour, ITurnParticipant, ITakingDamage, IAilment
+public class CharCombatHandler : MonoBehaviour, ITurnParticipant, ITakingDamage, IAilment
 {
     public PartyCharacter partyCharacter;
-    public string Name => partyCharacter.characterName;
+    public string Name => gameObject.name;
     public int CurrentHealth { get; private set; }
     public int Speed => SpeedModifier();
     public int Attack => AttackModifier();
-    public ITakingDamage[] AttackTargets;
 
     public Ailment ActiveAilment { get; private set; }
     public Stance Stance { get; private set; }
     public void SetStance(Stance stance) => Stance = stance;
 
-    public Action OnDamaged;
+    public Action OnTakingDamage;
     public Action AttackPerformed;
     public Action OnBlocked;
     public Action OnTakeTurn;
@@ -34,7 +33,8 @@ public class CharBattleHandler : MonoBehaviour, ITurnParticipant, ITakingDamage,
     private void InstantiateCharacter()
     {
         Instantiate(partyCharacter.characterObject, transform.position, transform.rotation, transform);
-        AddToTurnOrder();
+        CurrentHealth = partyCharacter.baseHealth;
+        RegisterParticipant();
     }
 
     public void TakingDamage(int damage)
@@ -46,12 +46,12 @@ public class CharBattleHandler : MonoBehaviour, ITurnParticipant, ITakingDamage,
         }
 
         CurrentHealth -= damage;
-        OnDamaged?.Invoke();
+        OnTakingDamage?.Invoke();
         if (CurrentHealth > 0) return;
         SetActiveAilment(Ailment.Dead);
         DeadOccur();
     }
-    
+
     #region StatsModifiers
 
     private int SpeedModifier()
@@ -70,10 +70,17 @@ public class CharBattleHandler : MonoBehaviour, ITurnParticipant, ITakingDamage,
 
     #region ManageTurn
 
-    private void AddToTurnOrder()
+    public void RegisterParticipant()
     {
         var bm = BattleManager.Instance;
-        bm.TurnHandler.AddPartyCharacter(this);
+        bm.TurnHandler.RegisterParticipant(this);
+    }
+
+    public void RemoveOnDeath()
+    {
+        if ((ActiveAilment & Ailment.Dead) == 0) return;
+        var bm = BattleManager.Instance;
+        bm.TurnHandler.RemoveFromTurnOrder(this);
     }
 
     public void TakeTurn()

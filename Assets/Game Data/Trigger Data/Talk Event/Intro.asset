@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TalkEvent
   script: 943e0f5423e621a4a8a3442b3f465aa0
   label: 
-  OnDialogueEnter:
+  AutoEvent: 1
+  onDialogueEnter:
     m_PersistentCalls:
       m_Calls: []
-  OnDialogueEnd:
+  onDialogueEnd:
     m_PersistentCalls:
       m_Calls: []
