@@ -1,6 +1,7 @@
-using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using MyBox;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,13 +13,16 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private List<Interaction> _possibleInteractions;
     private ColliderMonitor _colliderMonitor;
     private Rigidbody2D _rb;
-    private Vector2 _moveDirection;
+    [SerializeField] private Vector2 _moveDirection;
     private PlayerInput _playerInput;
     private InputAction _moveInput;
     private InputAction _interactInput;
+    public bool isDoingEvent;
+    [SerializeField] [AutoProperty] private ControlPlayerByEvent _controlbyEvent;
 
-    public float MoveDirX => _moveDirection.x;
-    public float MoveDirY => _moveDirection.y;
+    public Rigidbody2D PlayerBody => _rb;
+    public float MoveDirX => _rb.linearVelocityX;
+    public float MoveDirY => _rb.linearVelocityY;
 
 
     private void Awake()
@@ -77,6 +81,11 @@ public class PlayerControl : MonoBehaviour
         _interactInput.Disable();
     }
 
+    public void ChangeDoingEventState(bool changes)
+    {
+        isDoingEvent = changes;
+    }
+
     private void FixedUpdate()
     {
         _rb.linearVelocity = _moveDirection * moveSpeed;
@@ -89,8 +98,11 @@ public class PlayerControl : MonoBehaviour
             _possibleInteractions.Add(interactObject);
             objectToInteract = _possibleInteractions.Last();
 
-            if(!interactObject.AutoEvent) return;
-            objectToInteract?.InteractWithObject(this);
+            if (!interactObject.AutoEvent) return;
+            if (isDoingEvent)
+                StartCoroutine(EventIsWaiting());
+            else
+                objectToInteract?.InteractWithObject(this);
         }
     }
 
@@ -107,5 +119,16 @@ public class PlayerControl : MonoBehaviour
 
             objectToInteract = _possibleInteractions.Last();
         }
+    }
+
+    private IEnumerator EventIsWaiting()
+    {
+        yield return new WaitUntil(() => !isDoingEvent);
+        objectToInteract?.InteractWithObject(this);
+    }
+
+    public void DebugThis(string msg)
+    {
+        Debug.Log(msg);
     }
 }

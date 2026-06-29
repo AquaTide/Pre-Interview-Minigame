@@ -1,5 +1,5 @@
+using System;
 using UnityEngine;
-using UnityEngine.Events;
 using Naninovel;
 
 
@@ -10,31 +10,24 @@ public class TalkEvent : ScriptableObject
     public string script;
     public string label;
     public bool AutoEvent;
-    public UnityEvent onDialogueEnter;
-    public UnityEvent onDialogueEnd;
+    public Action OnDialogueEnd;
 
     private PlayerControl _player;
     public void Talk(PlayerControl player)
     {
-        Dialogue.OnEntered += HandleDialogueStart;
-        Dialogue.OnExited += HandleDialogueEnd;
-        
         var path = ScriptAssets.GetPath(script);
         _player = player;
+        _player.isDoingEvent  = true;
         Dialogue.EnterAndPlay(path).Forget();
     }
 
-    private void HandleDialogueEnd()
-    {
-        _player.EnableControl();
-        
-        onDialogueEnd?.Invoke();
-    }
-
-    private void HandleDialogueStart()
-    {
-        _player.DisableControls();
-        
-        onDialogueEnter?.Invoke();
-    }
+    // private void HandleDialogueEnd()
+    // {
+    //     OnDialogueEnd?.Invoke();
+    // }
+    //
+    // private void HandleDialogueStart()
+    // {
+    //     _player.DisableControls();
+    // }
 }

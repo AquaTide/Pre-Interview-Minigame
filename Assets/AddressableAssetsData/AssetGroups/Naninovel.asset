@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Naninovel
   m_GUID: 18f87422f28df3b42a0a3ff25a585ecf
   m_SerializeEntries:
+  - m_GUID: 05483f700f1c5694a9daa68761733bf9
+    m_Address: Naninovel/Scripts/2-DialogueEvents, Naninovel/Scripts/Sample/2-DialogueEvents
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0e61df696cabbea448510879ee732b00
     m_Address: Naninovel/ChoiceHandlers/ChatReply
     m_ReadOnly: 0
@@ -28,7 +33,8 @@ MonoBehaviour:
   - m_GUID: 1bc08ccd31adff6439e97161aa6e1d8b
     m_Address: Naninovel/TextPrinters/Dialogue
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Scripts/Sample/3-CharacterEvents
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c5b86cf3cfbb1f44ae5641699077da4
     m_Address: Naninovel/Spawn/ShakeCamera
@@ -38,10 +44,21 @@ MonoBehaviour:
   - m_GUID: 1f6aa29000e839c409e6a9c0704adc96
     m_Address: Naninovel/ChoiceHandlers/ButtonList
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Scripts/Sample/3-CharacterEvents
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2795040988e866646801c80024c50be1
     m_Address: Naninovel/Spawn/ShakePrinter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b3c0a2878f3a05439275efc6aec3864
+    m_Address: Naninovel/Scripts/5-Timeline, Naninovel/Scripts/Sample/5-Timeline
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30404fe2802e7e34eaa13a05564c1ebd
+    m_Address: Naninovel/Scripts/NoOutForest
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -54,6 +71,19 @@ MonoBehaviour:
     m_Address: Naninovel/Scripts/Title
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59f84841cf11a384d820ff519bab4f97
+    m_Address: Naninovel/Characters/Man A/MA_Neutral
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fa72cc08b9fab74a8b5314a4b80bc5e
+    m_Address: Naninovel/Characters/Kunoi/Kuno_Neutral, Naninovel/Characters/Kunoi/Neutral,
+      Naninovel/Characters/Kunoi/Neutral
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scripts/Intro
+    - Scripts/VillagerAskHelp
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f9836a3c4f777741b1962979d97e485
     m_Address: Naninovel/TextPrinters/Chat
@@ -85,8 +115,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80d1d2ea47982734da4f8344488b8f29
+    m_Address: Naninovel/Characters/Man B/MB_Neutral
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 88d03f19bcbff914ba33a7c9895e2d7c
     m_Address: Naninovel/UI/ConfirmationUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 943e0f5423e621a4a8a3442b3f465aa0
+    m_Address: Naninovel/Scripts/Intro
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c3bdcd4e8cf02f4680a77e177926c86
+    m_Address: Naninovel/Scripts/Intro 1, Naninovel/Scripts/VillagerAskHelp
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -105,6 +150,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acb02ab0bacfbc84085205bcd7c255c4
+    m_Address: Naninovel/Scripts/VillagerAskHelp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b47d9659b2be5ee4e95a776f213c9d4b
     m_Address: Naninovel/TextPrinters/Bubble
     m_ReadOnly: 0
@@ -120,13 +170,30 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf46247cea7112c4681c3d311d6bf96b
+    m_Address: Naninovel/Scripts/3-CharacterEvents, Naninovel/Scripts/Sample/3-CharacterEvents
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c4bf810b9b6cc9f44a58fd670678ded4
     m_Address: Naninovel/Spawn/SunShafts
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6660057b92a23d419c4bcba89b9735a
+    m_Address: Naninovel/Scripts/4-Bubbles, Naninovel/Scripts/Sample/4-Bubbles
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c87cebd3f0d4f174789cd351ce9591c4
     m_Address: Naninovel/TextPrinters/Fullscreen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scripts/Sample/3-CharacterEvents
+    - Scripts/Sample/4-Bubbles
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc495c968203f3a4a992214427fc2a62
+    m_Address: Naninovel/Scripts/1-Basics, Naninovel/Scripts/Sample/1-Basics
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -932,28 +932,6 @@
                 },
                 {
                     "name": "",
-                    "id": "8dcc569e-6590-4494-b2f0-9d5b94417420",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ToggleUI",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6865f79d-435c-4aa9-a805-93b19338b946",
-                    "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ToggleUI",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "4f4ff3b4-d513-4606-9843-bea1cbd082de",
                     "path": "<Keyboard>/l",
                     "interactions": "",
@@ -1472,7 +1450,7 @@
                 {
                     "name": "",
                     "id": "551d31cd-e9e2-4fb1-9e20-7b56cb1d22e4",
-                    "path": "<Keyboard>/enter",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1561,6 +1539,17 @@
                     "name": "",
                     "id": "3e935d32-fc6a-4848-a40b-04b045062dfb",
                     "path": "*/{Submit}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8d5d371-2f37-4134-82e3-e5ee068b4a2f",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

@@ -1,15 +1,8 @@
-Kunoi.neutral: Akhirnya keluar dari hutan juga...
-\[Suara dari kejauhan\]
-Kunoi: Ada kegaduhan apa disana ?
-@char Kunoi pose:darken lazy!
-@slide Kunoi to:110 wait! time:1 easing:EaseOutSine
-@exitDialogue
-# Part2
-@char Kunoi pose:lighten lazy!
-@slide Kunoi to:50 wait! time:1 easing:EaseOutSine from:0
-Kunoi.neutral: Ada apa disini ?
-@char Kunoi pose:darken
-Bagaimanapun juga ini tanggung jawab kita
-Kau pikir kau cukup kuat ?
-Meskipun begitu kita tidak bisa berdiam diri saja
+Kunoi.Kuno_Neutral: Akhirnya keluar dari hutan juga...
+Man A: Kita tidak bisa begini terus
+Man B: Tapi kita bisa mati
+Man A: Maju atau mundur kita akan sama-sama mati
+\[Kericuhan berlanjut\]
+Kunoi.Kuno_Neutral: Sepertinya ada sesuatu yang terjadi
+@slide Kunoi.Kuno_Neutral easing:EaseOutSine to:100, !wait time:1 visible!
 @exitDialogue

@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 using MyBox;
+using UnityEngine.Events;
+using Naninovel;
+
 
 public enum InteractionType
 {
@@ -20,14 +23,22 @@ public class Interaction : MonoBehaviour
     public TalkEvent talkEvent;
 
     public bool CanBeRepeated;
-    [SerializeField] [ReadOnly] private bool _haveBeenTriggered;
+    [SerializeField] private bool _haveBeenTriggered;
+    private PlayerControl _player;
+
+    public UnityEvent OnInteractionStart;
+    public UnityEvent OnInteractionEnd;
 
     public void InteractWithObject(PlayerControl player)
     {
         if (_haveBeenTriggered && !CanBeRepeated) return;
+        if (player.isDoingEvent) return;
+        _player = player;
         switch (interactionType)
         {
             case InteractionType.Talk:
+                Dialogue.OnEntered += HandleDialogueStart;
+                Dialogue.OnExited += HandleDialogueEnd;
                 talkEvent.Talk(player);
                 break;
             case InteractionType.ReceiveItem:
@@ -36,5 +47,18 @@ public class Interaction : MonoBehaviour
         }
 
         _haveBeenTriggered = true;
+    }
+
+    private void HandleDialogueStart()
+    {
+        _player.DisableControls();
+        OnInteractionStart?.Invoke();
+    }
+
+    private void HandleDialogueEnd()
+    {
+        OnInteractionEnd?.Invoke();
+        Dialogue.OnEntered -= HandleDialogueStart;
+        Dialogue.OnExited -= HandleDialogueEnd;
     }
 }

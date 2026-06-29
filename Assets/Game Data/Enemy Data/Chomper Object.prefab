@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 1499425845363791513}
   - component: {fileID: 2435343276893449509}
   m_Layer: 6
-  m_Name: HealthBar
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,8 +95,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 860519517
+  m_SortingOrder: 98
   m_TargetDisplay: 0
 --- !u!114 &1499425845363791513
 MonoBehaviour:
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 4156752847020516645}
   - component: {fileID: 4443444994614344751}
   m_Layer: 6
-  m_Name: Slider
+  m_Name: HealthSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -593,8 +593,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 860519517
+  m_SortingOrder: 80
   m_TargetDisplay: 0
 --- !u!114 &4694400468685605804
 MonoBehaviour:
@@ -793,9 +793,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 860519517
+  m_SortingLayer: 4
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: c1a8952e0cdb11c44b4eb6333df97209, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

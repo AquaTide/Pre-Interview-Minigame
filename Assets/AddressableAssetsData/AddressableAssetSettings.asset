@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 504b53018ed45c24abd0b03017993f28
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 40b7af1c29ce3b2eec885beb05fc3186
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -110,6 +110,12 @@ MonoBehaviour:
     - Locale-en
     - Locale-id
     - Preload
+    - Scripts/Intro
+    - Scripts/NoOutDungeon
+    - Scripts/NoOutForest
+    - Scripts/Sample/3-CharacterEvents
+    - Scripts/Sample/4-Bubbles
+    - Scripts/VillagerAskHelp
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 6f19ee301ba6ae948af0a82b67410afa, type: 2}

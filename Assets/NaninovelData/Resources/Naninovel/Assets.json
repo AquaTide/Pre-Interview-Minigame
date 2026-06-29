@@ -1,16 +1,22 @@
 {
     "Assets": [
         {
-            "guid": "9b7325784c23ba743884e2a5a4245808",
-            "prefix": "Characters/Head Chief",
-            "path": "neutral",
-            "group": "Characters/948c7dc2-0ff7-4b8c-b40e-3346f6c05e05"
-        },
-        {
             "guid": "5fa72cc08b9fab74a8b5314a4b80bc5e",
             "prefix": "Characters/Kunoi",
-            "path": "neutral",
-            "group": "Characters/2dc57165-d36d-4dc7-98c5-c346c1fe6e5e"
+            "path": "Kuno_Neutral",
+            "group": "Characters/f15b00c8-7cd0-4e68-86a1-a6322f1c0af3"
+        },
+        {
+            "guid": "59f84841cf11a384d820ff519bab4f97",
+            "prefix": "Characters/Man A",
+            "path": "MA_Neutral",
+            "group": "Characters/4672527d-d486-41c6-8991-0b3b2ced4c53"
+        },
+        {
+            "guid": "80d1d2ea47982734da4f8344488b8f29",
+            "prefix": "Characters/Man B",
+            "path": "MB_Neutral",
+            "group": "Characters/614860d0-83cd-4abd-bf21-231a8629b7da"
         },
         {
             "guid": "4fa6d62f894ae6e4698bfa8af59e7942",
@@ -79,6 +85,30 @@
             "group": ""
         },
         {
+            "guid": "acb02ab0bacfbc84085205bcd7c255c4",
+            "prefix": "Scripts",
+            "path": "Intro 1",
+            "group": ""
+        },
+        {
+            "guid": "9c3bdcd4e8cf02f4680a77e177926c86",
+            "prefix": "Scripts",
+            "path": "NoOutDungeon",
+            "group": ""
+        },
+        {
+            "guid": "30404fe2802e7e34eaa13a05564c1ebd",
+            "prefix": "Scripts",
+            "path": "NoOutDungeon 1",
+            "group": ""
+        },
+        {
+            "guid": "30404fe2802e7e34eaa13a05564c1ebd",
+            "prefix": "Scripts",
+            "path": "NoOutForest",
+            "group": ""
+        },
+        {
             "guid": "dc495c968203f3a4a992214427fc2a62",
             "prefix": "Scripts",
             "path": "Sample/1-Basics",
@@ -124,6 +154,12 @@
             "guid": "5606e67eac6182448bffa9dad13743b2",
             "prefix": "Scripts",
             "path": "Title",
+            "group": ""
+        },
+        {
+            "guid": "acb02ab0bacfbc84085205bcd7c255c4",
+            "prefix": "Scripts",
+            "path": "VillagerAskHelp",
             "group": ""
         },
         {
