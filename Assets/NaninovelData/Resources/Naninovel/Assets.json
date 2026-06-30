@@ -1,6 +1,30 @@
 {
     "Assets": [
         {
+            "guid": "b64c38fa3dee7d64cb8353b09524d99a",
+            "prefix": "Characters/GiantChomper",
+            "path": "Attack",
+            "group": "Characters/c58c79ca-c806-462a-85ac-1d29f67c2c11"
+        },
+        {
+            "guid": "c1a8952e0cdb11c44b4eb6333df97209",
+            "prefix": "Characters/GiantChomper",
+            "path": "Neutral",
+            "group": "Characters/c58c79ca-c806-462a-85ac-1d29f67c2c11"
+        },
+        {
+            "guid": "a4107f9242c12024993270bfe232fcbc",
+            "prefix": "Characters/Kunoi",
+            "path": "Kuno_Attack",
+            "group": "Characters/f15b00c8-7cd0-4e68-86a1-a6322f1c0af3"
+        },
+        {
+            "guid": "90c056aa88b4f0541b32e077d909de37",
+            "prefix": "Characters/Kunoi",
+            "path": "Kuno_Hurt",
+            "group": "Characters/f15b00c8-7cd0-4e68-86a1-a6322f1c0af3"
+        },
+        {
             "guid": "5fa72cc08b9fab74a8b5314a4b80bc5e",
             "prefix": "Characters/Kunoi",
             "path": "Kuno_Neutral",
@@ -8,13 +32,13 @@
         },
         {
             "guid": "59f84841cf11a384d820ff519bab4f97",
-            "prefix": "Characters/Man A",
+            "prefix": "Characters/ManA",
             "path": "MA_Neutral",
             "group": "Characters/4672527d-d486-41c6-8991-0b3b2ced4c53"
         },
         {
             "guid": "80d1d2ea47982734da4f8344488b8f29",
-            "prefix": "Characters/Man B",
+            "prefix": "Characters/ManB",
             "path": "MB_Neutral",
             "group": "Characters/614860d0-83cd-4abd-bf21-231a8629b7da"
         },
@@ -256,6 +280,12 @@
             "guid": "2795040988e866646801c80024c50be1",
             "prefix": "Spawn",
             "path": "ShakePrinter",
+            "group": ""
+        },
+        {
+            "guid": "04108736f1b42dc41b2348f65b407520",
+            "prefix": "Spawn",
+            "path": "SlashFx",
             "group": ""
         },
         {

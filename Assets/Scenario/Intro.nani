@@ -1,8 +1,7 @@
 Kunoi.Kuno_Neutral: Akhirnya keluar dari hutan juga...
-Man A: Kita tidak bisa begini terus
-Man B: Tapi kita bisa mati
-Man A: Maju atau mundur kita akan sama-sama mati
-\[Kericuhan berlanjut\]
+ManA: Kita tidak bisa begini terus
+ManB: Tapi kita bisa mati
+ManA: Maju atau mundur kita akan sama-sama mati
 Kunoi.Kuno_Neutral: Sepertinya ada sesuatu yang terjadi
 @slide Kunoi.Kuno_Neutral easing:EaseOutSine to:100, !wait time:1 visible!
 @exitDialogue

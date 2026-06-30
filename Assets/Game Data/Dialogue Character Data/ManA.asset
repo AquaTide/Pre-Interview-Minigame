@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66cdced088f34be2bb8518f5e61f6417, type: 3}
-  m_Name: Man B
+  m_Name: ManA
   m_EditorClassIdentifier: Elringus.Naninovel.Editor::Naninovel.CharacterRecord
-  actorId: Man B
+  actorId: ManA
   metadata:
     Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -23,10 +23,10 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-    guid: 614860d0-83cd-4abd-bf21-231a8629b7da
+    guid: 4672527d-d486-41c6-8991-0b3b2ced4c53
     customData:
-      rid: 2101766618662830206
-    Pivot: {x: 0.5, y: -0.3}
+      rid: 2101766618662830201
+    Pivot: {x: 0.5, y: -0.35}
     PixelsPerUnit: 100
     FilterMode: 2
     EnableDepthPass: 1
@@ -42,7 +42,7 @@ MonoBehaviour:
       height: 1
     BakedLookDirection: 1
     HasName: 1
-    DisplayName: Man B
+    DisplayName: Man A
     UseCharacterColor: 0
     NameColor: {r: 1, g: 1, b: 1, a: 1}
     MessageColor: {r: 1, g: 1, b: 1, a: 1}
@@ -62,7 +62,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 2101766618662830206
+    - rid: 2101766618662830201
       type: {class: PlaceholderCharacterMetadata, ns: Naninovel, asm: Elringus.Naninovel.Runtime}
       data:
         PlaceholderAppearances:

@@ -1,13 +1,22 @@
-Man A.MA_Neutral: Aku tidak akan berdiam diri saja, aku akan melawan monster itu
-Man B.MB_Neutral: Tapi kita tidak bisa berbuat apa-apa.
+@char ManA.MA_Neutral pos:35 pose:lighten
+@char ManB.MB_Neutral pos:65 look:Right pose:lighten
+ManA.MA_Neutral: Aku tidak akan berdiam diri saja, aku akan melawan monster itu
+ManB.MB_Neutral: Tapi kita tidak bisa berbuat apa-apa.
+@slide Kunoi.Kuno_Neutral from:-20 to:20 easing:EaseOutSine
+@char ManA.MA_Neutral look:Right lazy!
+@slide ManA.MA_Neutral to:65 easing:EaseOutSine lazy!
+@slide ManB.MB_Neutral to:75 easing:EaseOutSine lazy!
 Kunoi.Kuno_Neutral: Apa yang sebenarnya terjadi disini ?
-Man A.MA_Neutral: Sesosok monster telah menghacurkan desa dan membawa beberapa makanan kami.
-Man B.MB_Neutral: Makanan itu adalah stok untuk musim dingin.
-Man B.MB_Neutral: Tanpa itu, kami semua akan mati kelaparan.
-Man A.MA_Neutral: Namun kita juga tidak cukup kuat untuk mengambil kembali makanan kami.
+ManA.MA_Neutral: Sesosok monster telah menghacurkan desa dan membawa persediaan kami.
+ManB.MB_Neutral: Makanan itu adalah persediaan untuk musim dingin.
+ManB.MB_Neutral: Tanpa itu, kami semua akan mati kelaparan.
+ManA.MA_Neutral: Namun kita juga tidak cukup kuat untuk mengambil kembali persediaan kami.
 Kunoi.Kuno_Neutral: Mungkin aku bisa membantu kalian.
 Kunoi.Kuno_Neutral: Aku lumayan kuat untuk mengalahkan monster.
-Man B.MB_Neutral: Terima kasih petualang.
-Man A.MA_Neutral: Monster itu bersarang di dalam bekas kastil yang ada di sana.
+ManB.MB_Neutral: Benarkah ?
+ManB.MB_Neutral: Terima kasih petualang.
+ManA.MA_Neutral: Monster itu bersarang di dalam bekas kastil yang ada di sana.
 Kunoi.Kuno_Neutral: Baiklah, aku akan kesana sekarang.
+ManB.MB_Neutral: Beritahu kami setelah kau mengalahkan monster itu.
+ManA.MA_Neutral: Kami akan membantu mengangkut persediaan kembali ke desa.
 @exitDialogue
