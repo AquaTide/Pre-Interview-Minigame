@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Naninovel
   m_GUID: 18f87422f28df3b42a0a3ff25a585ecf
   m_SerializeEntries:
+  - m_GUID: 03c814fd0abeb6d4fb07949c71ac8e17
+    m_Address: Naninovel/Scripts/MoveInsideDungeon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 05483f700f1c5694a9daa68761733bf9
     m_Address: Naninovel/Scripts/2-DialogueEvents, Naninovel/Scripts/Sample/2-DialogueEvents
     m_ReadOnly: 0
@@ -75,7 +80,11 @@ MonoBehaviour:
   - m_GUID: 59f84841cf11a384d820ff519bab4f97
     m_Address: Naninovel/Characters/Man A/MA_Neutral
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Scripts/Intro
+    - Scripts/NoOutDungeon
+    - Scripts/NoOutForest
+    - Scripts/VillagerAskHelp
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5fa72cc08b9fab74a8b5314a4b80bc5e
     m_Address: Naninovel/Characters/Kunoi/Kuno_Neutral, Naninovel/Characters/Kunoi/Neutral,
@@ -83,6 +92,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Scripts/Intro
+    - Scripts/NoOutDungeon
+    - Scripts/NoOutForest
     - Scripts/VillagerAskHelp
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f9836a3c4f777741b1962979d97e485
@@ -118,6 +129,15 @@ MonoBehaviour:
   - m_GUID: 80d1d2ea47982734da4f8344488b8f29
     m_Address: Naninovel/Characters/Man B/MB_Neutral
     m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scripts/Intro
+    - Scripts/NoOutDungeon
+    - Scripts/NoOutForest
+    - Scripts/VillagerAskHelp
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 823eae9b134eb084e943fa3d35cc8391
+    m_Address: Naninovel/Scripts/ManB Talk
+    m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 88d03f19bcbff914ba33a7c9895e2d7c
@@ -142,6 +162,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9f56c556ba32fd54fae62347c25a8145
     m_Address: Naninovel/Spawn/ShakeBackground
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a041797d3ef85f7488cd584755b76ca4
+    m_Address: Naninovel/Scripts/ManA Talk
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

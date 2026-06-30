@@ -95,6 +95,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (other.TryGetComponent<Interaction>(out var interactObject))
         {
+            if(!interactObject.CanBeInteracted) return;
             _possibleInteractions.Add(interactObject);
             objectToInteract = _possibleInteractions.Last();
 

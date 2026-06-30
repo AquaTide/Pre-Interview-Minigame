@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e00e0762ea042689b342f010d1d316d, type: 3}
-  m_Name: ProjectStats
-  m_EditorClassIdentifier: Elringus.Naninovel.Runtime::Naninovel.ProjectStats
-  TotalScriptsCount: 14
-  TotalCommandCount: 301
-  TotalWordsCount: 1355
+  m_Script: {fileID: 11500000, guid: a5d5f3e456094bb489d6f696dc210898, type: 3}
+  m_Name: AfterBoss
+  m_EditorClassIdentifier: Assembly-CSharp::TalkEvent
+  script: 036d14ad66f0cee46be95029c6cb9b5b
+  label: 
+  AutoEvent: 1

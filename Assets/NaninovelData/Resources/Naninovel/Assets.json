@@ -73,6 +73,30 @@
             "group": ""
         },
         {
+            "guid": "9a8743e31e0b84645911ea89e4a5726d",
+            "prefix": "Scripts",
+            "path": "BossBatle",
+            "group": ""
+        },
+        {
+            "guid": "9a8743e31e0b84645911ea89e4a5726d",
+            "prefix": "Scripts",
+            "path": "BossBattle",
+            "group": ""
+        },
+        {
+            "guid": "9a8743e31e0b84645911ea89e4a5726d",
+            "prefix": "Scripts",
+            "path": "BossBattler",
+            "group": ""
+        },
+        {
+            "guid": "036d14ad66f0cee46be95029c6cb9b5b",
+            "prefix": "Scripts",
+            "path": "BossDefeated",
+            "group": ""
+        },
+        {
             "guid": "758a5c1086e53974bb6eb8e4cb2d4def",
             "prefix": "Scripts",
             "path": "Entry",
@@ -88,6 +112,24 @@
             "guid": "acb02ab0bacfbc84085205bcd7c255c4",
             "prefix": "Scripts",
             "path": "Intro 1",
+            "group": ""
+        },
+        {
+            "guid": "a041797d3ef85f7488cd584755b76ca4",
+            "prefix": "Scripts",
+            "path": "ManA Talk",
+            "group": ""
+        },
+        {
+            "guid": "823eae9b134eb084e943fa3d35cc8391",
+            "prefix": "Scripts",
+            "path": "ManB Talk",
+            "group": ""
+        },
+        {
+            "guid": "03c814fd0abeb6d4fb07949c71ac8e17",
+            "prefix": "Scripts",
+            "path": "MoveInsideDungeon",
             "group": ""
         },
         {

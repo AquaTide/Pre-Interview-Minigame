@@ -26,6 +26,19 @@ public class Interaction : MonoBehaviour
     [SerializeField] private bool _haveBeenTriggered;
     private PlayerControl _player;
 
+    public bool CanBeInteracted
+    {
+        get
+        {
+            if (CanBeRepeated)
+                return true;
+            else
+            {
+                return !_haveBeenTriggered;
+            }
+        }
+    }
+
     public UnityEvent OnInteractionStart;
     public UnityEvent OnInteractionEnd;
 
@@ -43,7 +56,7 @@ public class Interaction : MonoBehaviour
                 break;
             case InteractionType.ReceiveItem:
                 throw new NotImplementedException("Receive item not implemented");
-                break;
+                // break;
         }
 
         _haveBeenTriggered = true;

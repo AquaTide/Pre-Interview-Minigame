@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PartyCharacter
   characterName: Kunoi
   baseHealth: 10
-  baseAttack: 4
+  baseAttack: 20
   baseSpeed: 8
   characterObject: {fileID: 125623100964216960, guid: a38f1fef7e2735742ba3e1cba7d3b30a, type: 3}

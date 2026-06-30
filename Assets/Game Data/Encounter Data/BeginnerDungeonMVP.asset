@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 961200ab114d4b64c9ba1294fdfb1c5b, type: 3}
-  m_Name: BeginnerDungeon
+  m_Name: BeginnerDungeonMVP
   m_EditorClassIdentifier: Assembly-CSharp::Encounter
   isRandomEnemies: 1
   possibleEnemies:
-  - {fileID: 11400000, guid: 6e10c50fddcf3fd4c988b93be5820d86, type: 2}
+  - {fileID: 11400000, guid: 9d535ca198d51764297881ac2402d546, type: 2}
   minEnemiesCount: 1
-  maxEnemiesCount: 3
+  maxEnemiesCount: 1

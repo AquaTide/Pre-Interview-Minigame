@@ -1,0 +1,22 @@
+
+Kunoi.Kuno_Neutral: Akhirnya...
+Kunoi: (Haa... ha... ha...)
+Kunoi.Kuno_Neutral: Tadi itu hampir saja...
+Kunoi.Kuno_Neutral: Sekarang... ting... gal.... memberi tahu.... war... ga...
+@char Kunoi.Kuno_Neutral easing:EaseOutSine !visible !wait lazy! time:1
+(Pass out)
+@back .DropFade tint:#000000
+..
+...
+....
+@print Hahahahaha... as:??? printer:Dialogue author:"Man A" default!
+@print "Rencana kita berhasil" as:"Unknow 1"
+@print "Tak kusangka akan semudah ini" as:"Unknow 1"
+@print "Boss akan senang dengan hasil kita" as:"Unknow 2"
+@print "Tentu saja" as:"Unknow 1"
+@print "Ayo bawa dia sebelum dia sadar" as:"Unknow 2"
+.
+..
+...
+-To be Continue-
+@exitDialogue

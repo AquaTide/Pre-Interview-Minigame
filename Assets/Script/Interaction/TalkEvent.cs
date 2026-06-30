@@ -18,7 +18,7 @@ public class TalkEvent : ScriptableObject
         var path = ScriptAssets.GetPath(script);
         _player = player;
         _player.isDoingEvent  = true;
-        Dialogue.EnterAndPlay(path).Forget();
+        Dialogue.EnterAndPlay(path, label).Forget();
     }
 
     // private void HandleDialogueEnd()
